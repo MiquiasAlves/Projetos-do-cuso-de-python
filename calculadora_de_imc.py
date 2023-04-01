@@ -1,8 +1,8 @@
 print('----'*10)
-print('Decubra se seu pesoa é ideal')
+print('Decubra aqui se seu peso é ideal')
 print('----'*10)
 nome = str(input('Digite seu nome: ')) #nome do usúario
-peso = float(input(f'{nome}, agora me informe qual seu peso? (Kg) ')) #peso do usúario
+peso = float(input(f' Olá {nome}, agora me informe qual seu peso? (Kg) ')) #peso do usúario
 altura = float(input('Altura em (m)? ')) #altura do usúario em M
 imc = peso / (altura ** 2) #cálculo para chegar no indice de massa corporal (IMC)
 print(f'O imc dessa pessoa é de {imc}.')
