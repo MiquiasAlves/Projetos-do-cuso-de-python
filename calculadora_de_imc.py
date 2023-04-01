@@ -1,4 +1,6 @@
-print('----'*2)('Decubra seu peso ideal') ('----*2')
+print('----'*10)
+print('Decubra se seu pesoa é ideal')
+print('----'*10)
 nome = str(input('Digite seu nome: ')) #nome do usúario
 peso = float(input(f'{nome}, agora me informe qual seu peso? (Kg) ')) #peso do usúario
 altura = float(input('Altura em (m)? ')) #altura do usúario em M
