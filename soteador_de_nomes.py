@@ -6,7 +6,7 @@ name3 = (input('Digite o nome do terceiro aluno: '))
 name4 = (input('Digite o nome do quarto aluno: '))
 name5 = (input('Digite o nome do quinto aluno '))
 ordem_apresentaçao = [name1, name2, name3, name4, name5] # cria uma lista com as variáveis
-random.shuffle(ordem_apresentaçao) # criação da ordem de apresentação do trabalho com o método 'shuffle'
+random.shuffle(ordem_apresentaçao) # embaralhando a lista com os nomes aleatoriamente
 # imprimindo a lista com a ordem de apresentação dos alunos
 print('ordem_apresentaçao:')
 for nome in ordem_apresentaçao:
