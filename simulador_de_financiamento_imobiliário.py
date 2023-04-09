@@ -1,5 +1,5 @@
-valor_casa = float(input('Digite o valor da casa desejada: R$ ')) # valor da casa desejada como um número decimal
-salario = float(input('Digite o valor so seu salário em : R$ ')) # valor do salário do usuário como um número decimal
+valor_casa = float(input('Digite o valor da casa desejada: R$ ')) # valor da casa desejada
+salario = float(input('Digite o valor so seu salário em : R$ ')) # valor do salário do usuário
 parcelamento = int(input('Digite a quantidade de parcelas 12x, 24x, 36x, 48x, 60x, 72x, 84x, 96x, 108x, 120x... : ')) # solicita o número de parcelas para o financiamento como um número inteiro
 valor_mensal = valor_casa / parcelamento # valor mensal do financiamento dividindo o 'valor_casa' pelo 'parcelamento'
 if valor_mensal > (salario * (30/100)): # verifica se o valor mensal do financiamento é superior a 30% do salário do usuário
