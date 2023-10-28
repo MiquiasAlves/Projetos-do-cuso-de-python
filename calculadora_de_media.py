@@ -9,7 +9,7 @@ print('Obrigado pelas informações!')
 print('Aguarde um instante...')
 sleep(3) 
 # Verificando se o aluno foi aprovado, ficou de recuperação ou foi reprovado
-if m > 7:
+if m >= 7:
     print('Sua média foi {:.1f}, Parabéns! Você foi aprovado!'.format(m))
     print('Boas férias!')
 elif m >= 5.0 and m <= 6.9:
